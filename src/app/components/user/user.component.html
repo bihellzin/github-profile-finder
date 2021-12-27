@@ -1,0 +1,6 @@
+<div *ngIf="hasUser"
+  class="user-profile">
+  <img src="{{userInfo?.avatar_url}}" alt="">
+  <p>{{userInfo?.login}}</p>
+  <a [href]="userInfo?.html_url" target="_blank">Aqui</a>
+</div>
